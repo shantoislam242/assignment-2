@@ -1,0 +1,15 @@
+@media screen and (max-width:576px) {
+    .nav-btn{
+        display: none;
+        
+    }
+    .burger-menu{
+        display: flex;
+        color: white;
+    }
+    .navbar-main{
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
