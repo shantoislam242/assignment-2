@@ -5,13 +5,18 @@
     font-weight: 400;
     font-style: normal;
   }
+  
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* shared styles */
+body{
+    background-color: rgb(185, 185, 185);
+}
 
 .cs-width{
     max-width: 1060px;
@@ -46,6 +51,7 @@ header{
 .navbar-main{
     display: flex;
     justify-content: space-between;
+   padding-top: 50px;
 }
 
 .navbar-main{
@@ -66,5 +72,110 @@ header{
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 400;
+}
+
+/* banner section styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    height: 580px;
+   
+}
+.banner-text{
+    max-width: 520px;
+    padding-top: 70px;
+}
+.card-container{  
+    background-image: url(../images/Images\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 350px;  
+    
+}
+
+.banner-title{
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: .9;
+}
+#dancing-script-family {
+    font-family: "Great Vibes", cursive;
+   font-weight: 300;
+   font-style: normal;
+   font-size: 6rem;
+  }
+  .banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    margin-bottom: 28px;
+  }
+ 
+  .bnr-btn{
+    padding: 16px 40px 16px 40px;
+  }
+  .without-color{
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+  }
+  
+  /* card box style */
+  .card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+    padding-top: 125px;
+  }
+
+  .card-box{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 190px;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 12px;
+    color: #FFFFFF;
+  }
+  .box-1{
+    position: relative;
+    left: 200px;
+    width: 170px;
+    height: 80px;
+    padding-top: 5px;
+  }
+
+  .box-2{
+    position: relative;
+    left: -100px;
+    width: 190px;
+    height: 90px;
+  }
+.circle-block{
+   
+    display: flex;
+  } 
+.box-element{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-left: 0;
+    padding-left: 0;
+} 
+
+.card-ttl{
+    font-size: 2.5rem;
+}
+.card-des{
+    font-size:0.8rem;
+    color: rgba(239, 237, 232, 0.65);
 }
 
