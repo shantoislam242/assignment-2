@@ -1,7 +1,5 @@
 @media screen and (max-width:576px) {
-    body{
-       
-    }
+   
     .nav-btn{
         display: none;
         
@@ -50,7 +48,15 @@
       }
       /* banner section complete */
       
-        
+        /* main section start */
+
+   .rsv{
+        margin-top: 600px;
+    }
+    .img-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
 
 
 }
