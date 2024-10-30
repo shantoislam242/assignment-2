@@ -110,4 +110,11 @@
       .form-section, .table-section{
         padding-left: 20px;
       }
+
+      .fifth-container{
+        max-width: 309px;
+      }
+      .grid-box{
+        grid-template-columns: repeat(1, 1fr);
+      }
 }
