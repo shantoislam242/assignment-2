@@ -272,3 +272,11 @@ header{
  
 
 }
+
+.third-main{
+  border: 1px solid tomato;
+  max-width: 670px;
+  width: 100%;
+  margin-top: 88px;
+  margin-bottom: 88px;
+}
