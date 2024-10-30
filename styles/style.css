@@ -274,9 +274,75 @@ header{
 }
 
 .third-main{
-  border: 1px solid tomato;
   max-width: 670px;
   width: 100%;
   margin-top: 88px;
   margin-bottom: 88px;
+}
+
+/* fouth main start */
+.fourth-main{
+
+  background-color:  rgb(85, 85, 85) ;
+}
+
+.flexing-table-form{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cal-title{
+  font-size: 1.75rem;
+  margin-top: 52px;
+
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 310px;
+  width: 100%;
+  margin-top: 52px;
+}
+th{
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+td{
+  font-size: 0.87rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+table, th, td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* form related */
+
+input , .first-select, .second-select{
+  max-width: 282px;
+  width: 100%;
+  font-size: 1rem;
+  gap: 12px;
+  margin-top: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 13px 20px;
+
+}
+.second-select{
+  max-width: 569px;
+  width: 100%;
+  margin-bottom: 34px;
+}
+
+.last-btn{
+  padding: 16px 40px;
+  margin-bottom: 52px;
+  font-size: 18px;
+  font-weight: 600; 
 }

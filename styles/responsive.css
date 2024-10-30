@@ -87,5 +87,27 @@
       .run-img{
         margin-bottom: 35px;
       }
-     
+      .third-main{
+        max-width: 353px;
+
+      }
+      .flexing-table-form{
+        flex-direction: column;
+        
+      }
+      
+      input , .first-select, .second-select{
+        width: 40%;
+      }
+      .second-select{
+        width: 80% ;
+      }
+      .input-container{
+        display: flex;
+        gap: 12px;
+       
+      }
+      .form-section, .table-section{
+        padding-left: 20px;
+      }
 }
